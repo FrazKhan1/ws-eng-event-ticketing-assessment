@@ -7,11 +7,11 @@ import FormData from 'form-data';
 import { execSync } from 'child_process';
 
 const SUBMISSION_DIR = 'submission';
-const ASSESSMENT_TYPE = 'design-and-implement'; // TODO: Confirm with Serban — same type or new one?
-const ASSESSMENT_VERSION = 'v12';
-const ASSESSMENT_BRANCH = 'TODO_ASK_SERBAN'; // TODO: Ask Serban — what branch name for this assessment?
-const API_URL = 'TODO_ASK_SERBAN'; // TODO: Ask Serban — ROT13-encoded submission API URL (same as Conduit or new?)
-const REPO_GIT_URL = 'TODO_ASK_SERBAN'; // TODO: Ask Serban — canonical repo URL for this assessment
+const ASSESSMENT_TYPE = 'design-and-implement';
+const ASSESSMENT_VERSION = 'v1';
+const ASSESSMENT_BRANCH = 'rwa/feature-development-v1';
+const API_URL = 'iyuja327ulc6hq3xsypufut7bh0lygdq.ynzoqn-hey.hf-rnfg-1.ba.njf';
+const REPO_GIT_URL = 'https://github.com/trilogy-group/ws-eng-event-ticketing-assessment.git';
 
 if (process.argv.length !== 3) {
   console.error('❌ Please use the command from the instructions to submit!');

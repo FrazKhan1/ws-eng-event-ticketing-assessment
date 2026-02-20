@@ -20,7 +20,7 @@ Before starting the assessment, you should:
 ### 1. Set Up GitHub Codespaces
 
 1. Create a free GitHub account at [GitHub](https://github.com/signup) (if you don't have one).
-2. Open the Codespace using [this link](#) *(link to be provided)*.
+2. Open the Codespace using [this link](https://github.com/codespaces/new?repo=1162377539&ref=rwa/feature-development-v1&machine=standardLinux32gb).
 3. Your environment will automatically install all dependencies, set up the database, and start both the backend and frontend servers.
 4. Wait for the setup to complete (watch the terminal for "Ready!" message).
 5. Open the application:
