@@ -145,6 +145,7 @@ Spend time exploring the code to understand:
 - **Include Screenshots:** Include screenshots of the acceptance tests passing. If you submit without screenshots, you'll get 0 stars on completeness.
 - **Start with Decisions:** Fill in `DECISIONS.md` before coding. Document your approach, reasoning, and any questions about the requirements. Decision quality is part of your evaluation.
 - **Preserve Cline History:** Do not clear your Cline chat history. If you submit without Cline history, you'll get 0 stars.
+- **Code Must Compile:** Ensure your backend compiles without errors. Code that fails to compile will be penalized regardless of other scores.
 
 ## Running the Application
 
@@ -262,7 +263,7 @@ Once you are ready, reveal the user story requirements from `USER_REQUIREMENTS.m
 
 **Recommended Time Budget:**
 - **0:30** - Create your implementation plan
-- **2:00** - Implement the user story
+- **2:00** - Implement the user stories
 - **0:30** - Run acceptance tests and capture screenshots
 
 ## Submitting Your Work
