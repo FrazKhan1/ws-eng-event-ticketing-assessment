@@ -1,4 +1,4 @@
-const API_URL = process.env.NEXT_PUBLIC_API_URL || "http://localhost:4000";
+const API_URL = ""; // Relative path — Next.js rewrites proxy /api/* to backend
 
 interface FetchOptions extends RequestInit {
   token?: string | null;

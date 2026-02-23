@@ -14,7 +14,7 @@ const PORT = process.env.PORT || 4000;
 
 // Middleware
 app.use(cors({
-  origin: process.env.FRONTEND_URL || "http://localhost:3000",
+  origin: true, // Allow all origins — requests are proxied through Next.js in Codespaces
   credentials: true,
 }));
 app.use(express.json());
